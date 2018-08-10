@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE urlrewrite
+  PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+  "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+
+<urlrewrite >
+    <rule>
+        <note>
+            测试路径重写
+        </note>
+        <from>^/tolist(.htm)?$</from>
+        <to type="forward">/index</to>
+    </rule>
+    <rule>
+        <note>
+            测试路径重写
+        </note>
+        <from>^/testajax(.htm)?$</from>
+        <to type="forward">/test</to>
+    </rule>
+    <rule>
+        <note>
+            测试路径重写
+        </note>
+        <from>^/testajax1(.htm)?$</from>
+        <to type="forward">/test1</to>
+    </rule>
+</urlrewrite>
