@@ -50,4 +50,5 @@ public class UserController {
     public void test1(@RequestBody String data){
       System.out.print(data);
     }
+
 }
